@@ -47,7 +47,7 @@ function Navbar({ onMenuClick }) {
                 {/* Profile */}
                 <div className="flex items-center gap-2 cursor-pointer">
                     <img
-                        src="https://i.pravatar.cc/32"
+                        src="/src/assets/hero1.png"
                         alt="James R."
                         className="w-8 h-8 rounded-full object-cover"
                     />

@@ -72,7 +72,7 @@ function Dashboard() {
                     </div>
 
                     {/* Stats Cards */}
-                    <div className="flex flex-wrap gap-3 mb-6">
+                    <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 mb-6">
                         {stats.map((stat, i) => (
                             <StatsCard key={i} {...stat} />
                         ))}
