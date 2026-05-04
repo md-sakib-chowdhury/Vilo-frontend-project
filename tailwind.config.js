@@ -6,7 +6,6 @@
 //   },
 //   plugins: [],
 // }
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -14,7 +13,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#16a34a",
+        sidebar: "#f8fafc",
+      },
+      fontFamily: {
+        sans: ["Plus Jakarta Sans", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
